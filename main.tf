@@ -7,8 +7,6 @@ locals {
   enforce        = var.allow_list_length > 0 || var.deny_list_length > 0 ? null : var.enforce != false
 }
 
-# Boolean
-
 /******************************************
   Organization policy (boolean constraint)
  *****************************************/
@@ -78,8 +76,6 @@ resource "google_project_organization_policy" "policy_boolean_exclude_projects" 
     enforced = var.enforce == false
   }
 }
-
-# List
 
 /******************************************
   Organization policy, allow all (list constraint)
