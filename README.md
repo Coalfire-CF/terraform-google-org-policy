@@ -10,7 +10,7 @@ FedRAMP Compliance: High (included as a part of Identity & Access Management)
 
 ```
 module "organization_policies_type_boolean" {
-  source = "github.com/Coalfire-CF/ACE-GCP-Org-Policy"
+  source = "github.com/Coalfire-CF/terraform-gcp-org-policy"
 
   for_each = toset(var.boolean_type_organization_policies)
 
