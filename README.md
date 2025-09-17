@@ -68,10 +68,10 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_allow"></a> [allow](#input\_allow) | (Only for list constraints) List of values which should be allowed | `list(string)` | <pre>[<br>  ""<br>]</pre> | no |
+| <a name="input_allow"></a> [allow](#input\_allow) | (Only for list constraints) List of values which should be allowed | `list(string)` | <pre>[<br/>  ""<br/>]</pre> | no |
 | <a name="input_allow_list_length"></a> [allow\_list\_length](#input\_allow\_list\_length) | The number of elements in the allow list | `number` | `0` | no |
 | <a name="input_constraint"></a> [constraint](#input\_constraint) | The constraint to be applied | `string` | n/a | yes |
-| <a name="input_deny"></a> [deny](#input\_deny) | (Only for list constraints) List of values which should be denied | `list(string)` | <pre>[<br>  ""<br>]</pre> | no |
+| <a name="input_deny"></a> [deny](#input\_deny) | (Only for list constraints) List of values which should be denied | `list(string)` | <pre>[<br/>  ""<br/>]</pre> | no |
 | <a name="input_deny_list_length"></a> [deny\_list\_length](#input\_deny\_list\_length) | The number of elements in the deny list | `number` | `0` | no |
 | <a name="input_enforce"></a> [enforce](#input\_enforce) | If boolean constraint, whether the policy is enforced at the root; if list constraint, whether to deny all (true) or allow all | `bool` | `null` | no |
 | <a name="input_exclude_folders"></a> [exclude\_folders](#input\_exclude\_folders) | Set of folders to exclude from the policy | `set(string)` | `[]` | no |
