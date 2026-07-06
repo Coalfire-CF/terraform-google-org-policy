@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Coalfire-CF/terraform-google-org-policy/compare/v1.1.0...v1.1.1) (2026-07-06)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/github-script from 8 to 9 ([#31](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/31)) ([72b6113](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/72b61137f7b121b763a401f23f00fc9d9e468645))
+
 ## [1.1.0](https://github.com/Coalfire-CF/terraform-google-org-policy/compare/v1.0.3...v1.1.0) (2026-07-05)
 
 
