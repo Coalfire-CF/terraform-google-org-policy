@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.2](https://github.com/Coalfire-CF/terraform-google-org-policy/compare/v1.1.1...v1.1.2) (2026-08-20)
+
+
+### Bug Fixes
+
+* **release:** pass secrets to org-release (App token for release-please) ([#35](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/35)) ([08b802b](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/08b802bc9045dce40b03f810c2acfd90a199dfc1))
+
+
+### Miscellaneous
+
+* adopt Actions v0.12.1 (bypass auto-merge + event-driven re-merge) ([443ef89](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/443ef89823f69dff5400b6973498e5590431147a))
+* **ci:** adopt Coalfire-CF/Actions v0.11.3 ([#33](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/33)) ([e3119dd](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/e3119dd0d2ebff49d408e3b447a31094acd8f05b))
+* **deps:** bump the org-actions group across 1 directory with 8 updates ([#45](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/45)) ([143f130](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/143f130ffeef0ee889c7b190cf39ce6be53e3ba4))
+* **deps:** bump the org-actions group with 10 updates ([#37](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/37)) ([edfd87f](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/edfd87f8805965507c975f0e926a663ec884e2b4))
+* **deps:** bump the org-actions group with 10 updates ([#38](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/38)) ([81a443f](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/81a443fb292f5455cfdac6fe9c5e3c585f28e0ad))
+* **deps:** bump the org-actions group with 10 updates ([#39](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/39)) ([6002645](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/60026451f075046694ae8864ea3e93797705f818))
+* **deps:** bump the org-actions group with 9 updates ([#36](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/36)) ([52d5e67](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/52d5e6777b0b6400939795bc8a4c91f1bbcf8df1))
+* **deps:** bump the org-actions group with 9 updates ([#42](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/42)) ([96d517a](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/96d517a2f1fbde396de14a9faebaee30391a3bc5))
+* **docs:** generate README from _header.md and _footer.md ([#44](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/44)) ([cbbc125](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/cbbc125c554250696f420ce69eebe4ce4f4c92f4))
+* retire org-tree-readme ([#40](https://github.com/Coalfire-CF/terraform-google-org-policy/issues/40)) ([f49c19e](https://github.com/Coalfire-CF/terraform-google-org-policy/commit/f49c19efcd9a08a65f9c9704b05f47dce0a3c433))
+
 ## [1.1.1](https://github.com/Coalfire-CF/terraform-google-org-policy/compare/v1.1.0...v1.1.1) (2026-07-06)
 
 
